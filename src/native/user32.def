@@ -1,0 +1,21 @@
+LIBRARY USER32.dll
+EXPORTS
+    AdjustWindowRect
+    CreateWindowExW
+    DefWindowProcW
+    DestroyWindow
+    DispatchMessageW
+    EnumWindows
+    GetAsyncKeyState
+    GetClientRect
+    GetForegroundWindow
+    GetWindowThreadProcessId
+    IsWindowVisible
+    LoadCursorW
+    PeekMessageW
+    PostQuitMessage
+    RegisterClassExW
+    SetWindowTextW
+    ShowWindow
+    TranslateMessage
+    UpdateWindow

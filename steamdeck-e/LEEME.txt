@@ -1,0 +1,26 @@
+Pega esto en el Steam Deck, modo escritorio, junto al .exe de cada juego.
+Si pregunta, combina carpetas y reemplaza archivos.
+
+KOF 98 (junto a KingOfFighters98UM_x64.exe):
+  KofVsSelector.dll
+  Kof98Bgm.dll
+  xinput1_4.dll
+  dinput8.dll
+  kofvs.ini
+  Select\
+
+KOF 2002 (junto a KingOfFighters2002UM_x64.exe):
+  KofVsSelector.dll
+  Kof2002Bgm.dll
+  xinput1_4.dll
+  dinput8.dll
+  kofvs.ini
+  Select\
+
+En Steam > Propiedades del juego > Opciones de lanzamiento:
+  WINEDLLOVERRIDES="xinput1_4=n,b;dinput8=n,b" %command%
+
+No sustituyas el .exe ni steam_api64.dll.
+Data\ y Select\ se dejan si ya estan.
+
+Tras jugar deben aparecer kofvs-loader.log y kofvs.log junto al .exe.

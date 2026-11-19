@@ -1,0 +1,3 @@
+EXPORTS
+KofVs_XInputGetState=_KofVs_XInputGetState@8
+KofVs_XInputSetState=_KofVs_XInputSetState@8
